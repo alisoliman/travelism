@@ -1,0 +1,5 @@
+# General
+# ------------------------------------------------------------------------------
+USE_DOCKER=yes
+IPYTHONDIR=/app/.ipython
+DJANGO_SECRET_KEY=C04uZH1GuoBjvZXDTdR9iNglHwqiJzstjrVtkjIh9o28v9OU9xRLhWn6r4sr7ATs
