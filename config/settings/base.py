@@ -72,8 +72,9 @@ THIRD_PARTY_APPS = [
 ]
 
 LOCAL_APPS = [
-    "travelism.users.apps.UsersConfig",
-    # Your stuff: custom apps go here
+    'travelism.users.apps.UsersConfig',
+    'travelism.agencies.apps.AgenciesConfig',
+    'travelism.trips.apps.TripsConfig'
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
